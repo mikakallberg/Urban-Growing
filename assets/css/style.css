@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@200&family=Montserrat:wght@300&display=swap');
+
+
+/*aknowledgment:love running-walkthrou project*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/*sticky footer acknowledgment https://css-tricks.com/couple-takes-sticky-footer/*/
+.content{
+    flex: 1 0 auto;
+}
+html, body{
+    height: 100%;
+}
+/*Header styling*/
+
+body{
+    font-family: montserrat, sans-serif;
+    color: #798679;
+    display: flex; /*sticky footer acknowledgment*/
+    flex-direction: column; /*sticky footer acknowledgment*/
+}
+
+h1, h2{
+    font-family: m plus 1, sans-serif;
+    color: #808080;
+    font-size: 220%;
+}
+
+p{
+    text-align: left;
+}
+
+#logo{
+    float: left;
+    margin-left: 20px;
+}
+
+#logo, #menu{
+    line-height: 60px;
+}
+
+#menu{
+    float: right;
+}
+
+#menu > li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#menu{
+    padding: 3px;
+}
+
+#menu, a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    box-shadow: 0 0 5px #798679;
+}
+
+/*Index page*/
+/*header image*/
+
+#header-image{
+    overflow: hidden;
+    clear: both;
+    padding-top: 5px;
+    height: 400px;
+}
+
+/*What is growing now*/
+
+#growing{
+    height: 200px;
+    padding: 6px 40px 0;
+}
+
+.center-text{
+    text-align: center;
+}
+
+#tulip{
+    float: left;
+    width: 33%;
+    height: 300px;
+    padding-top: 20px;
+    text-align: end;
+}
+
+#buds{
+    float: right;
+    width: 33%;
+    height: 300px;
+    padding-top: 20px;
+}
+
+#spring-crocus{
+    float: left;
+    width: 34%;
+    height: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.text-align-image{
+    width: 60%;
+    float: left;
+    margin: 0 1%;
+}
+#contact-us-index {
+    clear: both;
+    text-align: center;
+    padding: 0 1%;
+    margin-top: 5vh;
+}
+
+/*About page*/
+
+#about-us{
+    clear: both;
+    height: 40px;
+    text-align: center;
+    padding: 20px 0 0 20px;
+}
+
+#about-image-div-one {
+    float: left;
+    clear: both;
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+#img-one{
+    width: 360px;
+    height: 500px;
+}
+
+#about-text-div-one{
+    float: left;
+    width: 33%;
+    height: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+#about-image-div-two{
+    float: right;
+    width: 35%;
+    height: 300px;
+    padding-top: 2px;
+    margin: 0 60px;
+    position: relative;
+}
+
+#img-two{
+    width: 540px;
+    height: 360px;
+    float: left;
+}
+
+#contact-us-about{
+    clear: both;
+    text-align: center;
+    padding: 0 1%;
+    margin-top: 75vh;
+}
+
+/*Contact page*/
+#background-image{
+    clear: both;
+    background-image: url(../images/sandie-clarke-q13Zq1Jufks-unsplash.jpg);
+    width: 100%;
+    height: 800px;
+}
+
+#contact-form{
+    margin-left: 60%;
+    padding: 40px;
+    width: 360px;
+    background-color: #e6e6e6;
+    opacity: 0.75;
+}
+
+#button{
+    border: none;
+    font-size: 100%;
+}
+
+#button:hover{
+    box-shadow: 0 0 5px #798679;
+}
+
+.title{
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+/*404 page*/
+
+#error-page{
+    text-align: center;
+    padding: 10%;
+    margin-left: 20%;
+}
+
+/*footer styling*/
+
+footer{
+    line-height: 60px;
+}
+
+/*sticky footer acknowledgment https://css-tricks.com/couple-takes-sticky-footer/*/
+.footer{
+    flex-shrink: 0;
+}
+
+.social {
+    text-align: center;
+    color: inherit;
+    background-color: #e6e6e6;
+    height: fit-content;
+}
+
+.social > li {
+    display: inline;
+    margin: 1%;
+}
+
+/*Media queries*/
+
+/* For larger to medium screens siz from 1480px width*/
+@media screen and (max-width: 1480px) {
+    #growing{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .section-one{
+        width: 65%;
+        height: 900px;
+        margin: 0 auto;
+    }
+    #about-us{
+        float: left;
+    }
+
+    .center-text, #about-us{
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #contact-form{
+        padding: 30px 0;
+        margin: 0 25%;
+    }
+
+    #tulip, #spring-crocus{
+        width: 80%;
+        float: left;
+        padding: 0;
+    }
+    #about-image-div-one, #about-text-div-one{
+        width: 65%;
+        float: left;
+        padding: 0;
+    }
+
+    #buds, #about-image-div-two{
+        clear: both;
+        width: 65%;
+        float: left;
+        padding: 0;
+        margin: 10% 0;
+    }
+}
+
+/*For medium screen from 900 px wide and down*/
+
+@media screen and (max-width: 900px) {
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #growing{
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .section-one{
+        width: 90%;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    #about-us{
+        float: left;
+    }
+
+    #tulip, #spring-crocus, #about-image-div-one{
+        width: inherit;
+    }
+
+    #about-text-div-one{
+        width: inherit;
+    }
+
+    #buds, #about-image-div-two{
+        clear: both;
+        width: inherit;
+    }
+
+    #growing > p{
+        margin: 10%;
+        text-align: center;
+    }
+    
+}
