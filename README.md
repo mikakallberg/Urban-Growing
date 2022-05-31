@@ -1,108 +1,139 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Urban Growing at Eskadern
 
-Welcome mikakallberg,
+The Urban Growing at Eskadern is a local urban grower society directed at the residents of the area who may or may not have knowledge in planting a garden. All are welcome.
+The area mostly comprise of apartment buildings, so there is no real way of having a garden of your own. But residents coming together in the communal spaces planting a garden, not only provides a beautiful garden, it is also a learning opportunity and a chance for people to meet and create bonds.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](assets/images/amiresponsiv.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features 
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About us and contact page and is identical in each page to allow for easy navigation. When the user hovers over the links a shadow appears to indicate for the user what they are about to click.
+  - This feature allows the user to able to navigate between the different pages i´without having to press the browsers back or forward navigation. And the can always find their way back to home page. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Menu](assets/images/navigation-shadow.png) 
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - To identify the landing page and also set the tone for the over all content the below image is used. This image also ties in to the 404.Error page.
 
-A blue button should appear to click: _Make Public_,
+![Landing Page](assets/images/pexels-markus-spiske-121629.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+- __What is growing now__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The what is growing now section is the first introduction to The Urban Growing at Eskadern.
+  - It is meant to give the user an up to date insight to what is happening at that season in the garden.
+  - Embeded in the text content are external links to wikipedia pages about the different flowers that are growing in this particular season.
+  - All external links have a noopener and a noreferrer, to increase security for the user. So malicious code can't interfer as the user is transported from our page to the external site.
 
-To log into the Heroku toolbelt CLI:
+![growingnow](assets/images/whatisgrowingnow.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Come Grow With Us__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section is the first linked expressiv invitation to the user, to join the society.This bar is also present just above the footer on the About page.
+  - It responds when the user hovers over it by creating a shadow behind it, letting the suer know they are about to take action.
 
-------
+![comegrowwithus](assets/images/comegrowwhitus.png)
 
-## Release History
+- __The Footer__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The footer includes links to social media sites for The Urban Growing at Eskadern. As this is a small society they probably have a Facebook and Instagram page, and as this is a little bit more media savy group they also have Twitter. The links will open to a new tab to allow easy navigation for the user. 
+  - All external links have a noopener and a noreferrer, to increase security for the user. So malicious code can't interfer as the user is transported from our page to the external site.
+  - The footer is another way for the user to connect with the society.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Footer](assets/images/footer.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __About Us__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The about us page gives the user a little bit more information about the inclusive values of The Urban Growing at Eskadern. 
+  - This section allows the user to get to know the society a little more.
+  - There are multiple roads of contact in the content section of the about page. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![About](assets/images/aboutlandingpage.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Embedded in the text are clickabel links to Facebook, Instagram and Twitter. As with the footer all external links have a noopener and a noreferrer, to increase security for the user. So malicious code can't interfer as the user is transported from our page to the external site.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![About Text area](assets/images/aboutlinksintext.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Contact Page__
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - This page allows the user to contact The Urban Growing at Eskadern. It is the only focus.
+  -The background image is also used as a content giver. The goal is to give the user inspiration to go out and get their hands dirty in the soil.
+  -Visible in the image is also the shadow effect behind the send-button, which is used to give respons to the users actions.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![Contact](assets/images/contactpage.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __Error page__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- If for some reason the user tries to find a page that doesn't exist, a 404.error page appear.
+- The Error page is designed to have the same structure as the Home page, this is to connect even a missfired browser to the website.
+- A clear message without distractions are used to guide the user to a solution to their problem.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![404 Error](assets/images/errorpage.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Features Left to Implement
 
-------
+- A better send button
+-Actions in the form element, right now it's just static.
 
-## FAQ about the uptime script
+## Testing 
 
-**Why have you added this script?**
+The first testing of the code reveald the following errors and warnings:
+HTML code tested using W3C validator:
+Index-file:
+Seven errors and one warning found.
+About-file:
+Four erros found
+Contact-file:
+Two erros found.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+CSS code tested using W3C Jigsaw validator
+This found one error and nine warnings.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Validator Testing 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- HTML
+  - All HTML code were returned without errors when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+  - CSS
+  - 1 error was found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmikakallberg.github.io%2FMilestone-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Unfixed Bugs
 
-**So….?**
+- In the CSS file there is a bug regarding the font-family. Which if changed becomes unusable. The bug doesn't seem to affect the launching or design. So I let it stay as is.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Deployment
+ To deploy this website I used GitHub pages. The following was done.
 
-**Can I opt out?**
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu to the left pages was selected.
+  - From the source section drop-down menu, select the main branch
+  - From the select folder drop-down menu, select /(root)
+  - Once the main branch and root has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The live link can be found here - https://mikakallberg.github.io/Milestone-Project-1/index.html
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+## Credits 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- Firstly I want to credit my fellow students for both being there easing the stress, but also coming up with ideas of solutions.
+- Second credit Code Institute and the Walkthrough "Love Running" project. I tried hard to not copy any code, but I have used the structure given in teh video of begining from the top and working my way down. I have also copied the basic structure of this README.md file just to give me the headings and a better understanding. 
+- To get the footer to stick to bottom of each page I copied the code given by https://css-tricks.com/couple-takes-sticky-footer/, I have consistenly in text wherever used credited and linked to that webpage in comments to the code.
+- To structure the layout of images and also text I've used a combination of a book (HTML&CSS by Jon Duckett), I have gotten help from Student support Tutoring sessions, special acknowledgemnt here to Christine from Code Institute for helping me align the images and text on the index.html page. I have also googled trouble shooting issues. But I haven't copy pasted code. I'm unsure if the credit needs to be more specific then that.
 
----
+### Content 
 
-Happy coding!
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the Home page are from two sources. The three small ones are from me and the big header image is from https://www.pexels.com/photo/food-healthy-vegetables-agriculture-121629/. 
+- The photos used on the About page are from https://unsplash.com/photos/qo6_mo9dsYg and https://unsplash.com/photos/QMj47_NSmfs. 
+- The photos used on the Contact page is from https://unsplash.com/photos/q13Zq1Jufks.
+- The photos used on the 404 page are from this site https://www.pexels.com/photo/food-healthy-vegetables-agriculture-121629/.
+
